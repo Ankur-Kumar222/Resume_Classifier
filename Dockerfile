@@ -6,8 +6,8 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY app.py .
-COPY clf.pkl
-COPY tfidf.pkl
+COPY clf.pkl .
+COPY tfidf.pkl .
 
 EXPOSE 8501
 
